@@ -10,14 +10,14 @@ The objective of this project is to provide an in-depth understanding of the sal
 ## Challenge
 One of the main projects as a Business Intelligence Intern at Bank Muamalat is to create sales report for 2020 and 2021. Here are the steps of the project:
 
-### Determine the Primary Key (PK) of each dataset and create an Entity Relationship Diagram (ERD).
+### A. Determine the Primary Key (PK) of each dataset and create an Entity Relationship Diagram (ERD)
 ![Screenshot (374)](https://github.com/zahrasm13/PBI_BankMuamalat/assets/165493458/bfa36667-2be3-4417-a9f6-76e0908c1e58)
 - Primary key Customer tabel : CustomerID
 - Primary key Products tabel : ProdNumber
 - Primary key Orders tabel : OrderID
 - Primary key ProductCategory tabel : CategoryID
 
-### Create a master table containing sales information and create a sales report dashboard
+### B. Create a master table containing sales information and create a sales report dashboard
 
 ### 1. Importing Dataset to PostgreSQL
 **Dataset** <br>
@@ -70,7 +70,7 @@ JOIN public."ProductCategory" AS pc
 ### 3.  Create Sales Report Dashboard
 ![Screenshot (375)](https://github.com/zahrasm13/PBI_BankMuamalat/assets/165493458/1e5a2341-dd7a-4a75-8a72-d189c9018bbd)
 
-## Business Insight
+## C. Business Insight
 - Sales Decline: 
 There was a 7.7% decrease in sales from 2020 to 2021. This calls for an in-depth evaluation of the sales and marketing strategies carried out over the period.
 - Monthly Sales Trend Analysis: 
@@ -80,7 +80,7 @@ While the Robots product category has the highest sales revenue, the ebooks prod
 - City with the Highest Sales: 
 Washington is the city with the highest total sales and total orders. This indicates significant market potential in the city.
 
-## Business Recommendation
+## D. Business Recommendation
 - Optimize Marketing Strategy: 
 Need to conduct an in-depth evaluation of the marketing strategies that have been carried out to understand what is effective and what is not. 
 - Bundle Package Sales:
